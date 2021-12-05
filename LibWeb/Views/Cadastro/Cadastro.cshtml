@@ -1,0 +1,41 @@
+﻿@model LibWeb.Models.User
+
+@{
+    ViewBag.Title = "Cadastro";
+}
+
+<div class="container">
+    <div class="left">
+        <div class="header">
+            <h2>Cadastre-se</h2>
+        </div>
+
+        <form action="" class="form">
+
+            <label>Nome: </label>
+            <input type="text" data-js="nome" class="nome" id="nome">
+            <br />
+
+            <label>Nome de usuário: </label>
+            <input type="text" data-js="usuario" class="usuario" id="usuario">
+            <br />
+
+            <label>Estado: </label>
+            <input type="text" data-js="estado" class="estado" id="estado">
+            <br />
+
+            <label>Data de nascimento: </label>
+            <input type="text" data-js="data_nasc" class="data_nasc" id="data_nasc">
+            <br />
+
+            <label for="email">Email: </label>
+            <input type="text" class="email" id="email">
+            <br />
+
+            <label for="password">Senha: </label>
+            <input type="password" class="senha" id="senha">
+            <br />
+
+            <button id="button">ENTRAR</button>
+
+        </form>
